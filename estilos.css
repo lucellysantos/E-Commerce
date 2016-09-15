@@ -1,0 +1,122 @@
+body
+{
+	font-family: bookman old style ;
+	margin: 0;
+	padding: 0;
+
+}
+#links{
+
+	text-align: center;
+}
+
+.header
+{
+	color: white;
+	height: 350px;
+	width: 100%;
+	background: url(http://www.geekinsider.com/wp-content/uploads/2016/08/geekinsider-logo.png) no-repeat center top;
+	background-size: 100% 350px;
+	text-align: right;
+
+
+}
+
+
+
+.nav
+{
+	width: 15em;
+	float: left;
+}
+
+
+.content
+{
+	padding-top: 20px;
+	/*text-align: center;*/
+	margin-left: 16em;
+	height: 500px;
+}
+
+.footer
+{
+	padding-bottom: 1px;
+	margin-left: 16em;
+	clear: center;
+
+}
+
+#desenvolvedores
+{
+	border-collapse: collapse;
+}
+
+
+p
+{
+	padding-right: 15em;
+	color: black;
+	font-size: 14pt;
+	text-indent: 20px;
+	text-align: justify;
+
+}
+
+ol,ul
+{
+	list-style: none;
+}
+
+.sub_lista
+{
+}
+/* unvisited link */
+.sub_lista:link {
+    color: black;
+}
+
+/* visited link */
+.sub_lista:visited {
+    color: black;
+}
+
+/* mouse over link */
+.sub_lista:hover {
+    color: red;
+}
+
+/* selected link */
+.sub_lista:active {
+    color: blue;
+}
+
+.titulo
+{
+	font-size: 22pt;
+	font-weight: bold;
+	text-transform: capitalize;	
+}
+
+#desenvolvedores
+{
+	font-size: 13pt;
+	width: 820px;
+	height: 200px;
+
+	border-bottom-width: 5px;
+	border-bottom-style: solid ;
+	border-bottom-color: gray;
+
+	border-right-width: 5px;
+	border-right-style: solid ;
+	border-right-color: gray;
+
+	border-top-width: 5px;
+	border-top-style: solid ;
+	border-top-color: gray;
+
+	border-left-width: 5px;
+	border-left-style: solid ;
+	border-left-color: gray;
+}
